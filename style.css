@@ -1007,3 +1007,49 @@ img {
     }
    
 }
+
+
+
+
+/* responsive features and why choose us  */
+@media screen and (max-width: 768px) {
+    .section.service {
+        padding: 3rem 1rem;
+    }
+
+    .section-title {
+        font-size:3.5em;
+    }
+
+    .grid-list {
+        grid-template-columns: 1fr;
+    }
+
+    .service-card {
+        padding: 1.5rem;
+    }
+
+    .grid-list {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .card {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .section-title {
+        font-size:3rem;
+    }
+
+    .card-title {
+        font-size: 1.2rem;
+    }
+
+    .card-text {
+        font-size: 0.9rem;
+    }
+}
